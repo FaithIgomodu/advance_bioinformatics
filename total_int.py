@@ -1,7 +1,6 @@
 '''
 Author: Faith Igomodu
 Date: June 1, 2025
-Course: DBST 651 
 Descriptino: program will accept five int from user and caluclate mean and sum. Results wil be printed to std.output.
 _______________________________________________________________________________________________________________________
 
