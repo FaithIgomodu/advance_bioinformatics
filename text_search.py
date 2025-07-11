@@ -24,7 +24,7 @@ import re
 def word_search(word):
     '''
 
-    The function searches for RNA's in a string array
+    The function searches for RNA's in a string 
     and prints its location when found.
 
     arg:
