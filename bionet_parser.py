@@ -16,8 +16,8 @@ discard header
 discard blank lines
 split enzyme and recognition sites
 store in a dictionary
-
-
+--------------------------------------
+NOTE: Solution incomplete. A dictionary of  amino acids and sequence equivalent needed to convert cut site to a sequence!
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 '''
