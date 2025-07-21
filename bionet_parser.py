@@ -11,11 +11,10 @@ that as the value for each dictionary entry.The key will be the enzyme name.
 
 
 Solution stratgey
-read file and store in variable 
+read file  
 discard header
 discard blank lines
 split enzyme and recognition sites
-convert recognition site into regular expression
 store in a dictionary
 
 
