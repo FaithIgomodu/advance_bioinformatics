@@ -29,12 +29,12 @@ def word_search(word):
 
     arg:
     ----
-    string array
+    string 
 
 
     return:
     ------
-    
+    none
     '''   
 
    
