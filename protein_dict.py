@@ -67,12 +67,13 @@ def protein_translate(dna):
 
 if __name__ == "__main__":
     #inform user the type of application 
-    app = input("---- Protein Translation Application----")
+    print("---- Protein Translation Application----")
     #obtain user input 
     user_input = input("\nEnter gene sequence (3 bases) to be translated: ")
     #translate user dna sequence to amino acid 
     translate = protein_translate(user_input)
     print(f"DNA: {user_input} --> Protein: {translate}")
+
 
 
 
