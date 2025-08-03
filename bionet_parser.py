@@ -43,13 +43,13 @@ def bionet_parse(filename):
     global bio_dict
 
     #regular expression to remove header and blank lines
-    header = re.compile(r'^\s*(REBASE\b.*|.*(RICH|Roberts)\b.*|\s*Copyright.*|\s*Rich Roberts.*|\s*$)',re.IGNORECASE)
+    sequence = re.compile(r'^\s*(REBASE\b.*|.*(RICH|Roberts)\b.*|\s*Copyright.*|\s*Rich Roberts.*|\s*$)',re.IGNORECASE)
     
     #open file 
     with open(filename, 'r') as bio:
         for base in bio:
             line = base.strip()
-            if not header.match(line):
+            if not sequence.match(line):
                 enzyme = re.split(r'\s{2,}', line)
                 if len(enzyme) >= 2:
                     seq = enzyme[1].strip()
@@ -80,4 +80,5 @@ if __name__ == '__main__':
     file = input("Enter the name of Bionet file:")
     bio_file = bionet_parse(file)
     print_bio(bio_file)
+
 
